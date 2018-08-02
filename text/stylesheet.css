@@ -1,0 +1,116 @@
+body {margin:0;}
+
+.navsomething {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    overflow: hidden;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+li {
+  display: inline-block;
+}
+
+li a {
+    display: inline-block;
+    color: #778899;
+    text-align: center;
+    padding: 8px 15px;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 2px solid #fff;
+
+}
+
+li a:hover:not(.active) {
+    border-radius: 7px;
+    box-sizing: border-box;
+    border: 2px solid #778899;
+}
+
+li a:hover:after {
+    background-color: transparent;
+}
+
+.active {
+    color: #6C293A;
+    border-radius: 7px;
+    box-sizing: border-box;
+    border: 2px solid #6C293A;
+
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+
+
+  .topslider {
+    padding:20px;
+    padding-top:50px;
+    margin-top:80px;
+    background-color: #6C293A;
+    color: white;
+
+  }
+  .topmedia {
+    /*width: 100%;*/
+    max-height: 400px;
+  }
+  .bottomdiv {
+    text-align: center;
+  }
+
+@media (min-width: 768px) {
+
+  .topslider {
+    padding:20px;
+    margin-top:80px;
+    background-color: #6C293A;
+    color: white;
+
+  }
+  .bottomdiv {
+    text-align: right;
+  }
+  .topmedia {
+    height: 100%;
+    max-height: 400px;
+  }
+
+}
+
+.topcontent {
+  max-width: 650px;
+  width: 80%;
+  padding: 50px;
+  margin: 0 auto;
+  /*background-color: black;*/
+  text-align: center;
+}
+
+.bottomcontainer {
+  max-width: 750px;
+  margin: 0 auto;
+  /*background-color: black;*/
+}
+.bottommedia {
+  float: right;
+  max-width: 300px;
+}
+.info1 {
+  background-color: black;
+  width: 400px;
+
+}
